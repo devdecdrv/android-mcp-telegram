@@ -1,0 +1,11 @@
+Download cloudflared from https://github.com/cloudflare/cloudflared/releases
+
+Place these files here:
+  cloudflared-arm64    (for ARM64 phones — most modern Android phones)
+  cloudflared-x86_64   (for x86_64 — emulators)
+
+Example download commands:
+  curl -L -o cloudflared-arm64 https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64
+  curl -L -o cloudflared-x86_64 https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
+
+Then chmod +x both files (the app does this internally too, but good practice).

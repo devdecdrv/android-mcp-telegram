@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android MCP</string>
+    <string name="accessibility_service_label">Android MCP Control</string>
+    <string name="accessibility_service_description">Enables remote AI control of this device via MCP protocol</string>
+    <string name="channel_name">MCP Server</string>
+    <string name="channel_description">Android MCP remote control server</string>
+    <string name="notification_title">MCP Server Running</string>
+    <string name="notification_text">Waiting for Cloudflare tunnel URL…</string>
+</resources>
